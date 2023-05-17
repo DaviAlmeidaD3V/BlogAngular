@@ -1,0 +1,38 @@
+.container__footer {
+    position: relative;
+    bottom: 0;
+    height: 15vh;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container__footer h1 {
+    font-size: 1rem;
+    color: #Fff;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: 0 30px;
+}
+
+.container__footer .Info {
+    display: flex;
+    background: transparent;
+    gap: 3rem;
+}
+
+.container__footer .Info i {
+    color: #fdfdfd;
+    font-size: 25px;
+    background: none;
+}
+
+
+.container__footer .Info i:hover {
+    transform: scale(200%);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
