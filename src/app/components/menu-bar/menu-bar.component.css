@@ -3,8 +3,9 @@
     height: 10vh;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
-    border-bottom: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid #EA80FC;
+    background: #3C4042;
 }
 
 .container__menu__bar ul {
@@ -18,7 +19,11 @@
 
 .container__menu__bar   li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 900;
-    color: #000;
+}
+
+.container__menu__bar   li a:hover {
+    color: #d010f1;
+    transition: all 400ms ease;
 }

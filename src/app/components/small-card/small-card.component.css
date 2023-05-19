@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
 
@@ -9,14 +9,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    border: 3px solid #EA80FC;
+    border-radius: 15px;
     width: 100%;
     padding: 15px;
     margin-bottom: 15px;
+    background: #3C4042;
 }
 
 .small-card-photo {
-    width: 240px;
+    width: 420px;
 }
 
 .small-card-photo img {
@@ -24,6 +26,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
+    display: flex;
 }
 
 .small-card-info {
@@ -36,4 +40,8 @@
     font-size: 9px;
     padding: 10px 0;
     text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
 }

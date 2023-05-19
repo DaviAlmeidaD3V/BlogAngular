@@ -1,0 +1,11 @@
+@media (max-width: 720px){
+    .container_articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5%;
+    }
+    .articles__main {
+        margin-bottom: 10%;
+    }
+}

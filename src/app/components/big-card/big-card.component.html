@@ -1,43 +1,26 @@
-<div class="container__big__card">
-    <div class="big-card-photo">
-        <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png"
-        alt=""
-        height=""
-        width=""
-        srcset=""
-        >
+<a [routerLink]="['content', NamePageBigCard]">
+    <div class="container__big__card">
+        <div class="big-card-photo">
+            <img
+            src= "{{ PhotoBigCard }}"
+            alt=""
+            srcset=""
+            >
+        </div>
+    
+        <div class="big-card_title">
+            <h1>{{ TitleBigCard }}</h1>
+        </div>
+    
+        <div class="big-card-description">
+            <h3>{{ DescBigCard }}</h3>
+        </div>
+    
+        <div class="big-card-text">
+            <p>
+                {{ TextBigCard }}
+            </p>
+        </div>
     </div>
-
-    <div class="big-card_title">
-        <h1>Title</h1>
-    </div>
-
-    <div class="big-card-description">
-        <h3>Send description</h3>
-    </div>
-
-    <div class="big-card-text">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et mattis nisi. Morbi pulvinar aliquam placerat. Cras id
-            odio vitae dolor lobortis elementum. Mauris blandit eleifend leo, et cursus metus. Curabitur sit amet ultrices
-            massa, blandit mattis justo. Integer nec imperdiet magna, faucibus facilisis justo. Nullam vehicula scelerisque
-            augue, in bibendum ante. Phasellus laoreet ex mi, in porttitor augue tempor vel. Nullam ornare purus at nisl auctor
-            venenatis.
-        </p>
-        <p>
-            Nunc faucibus condimentum rutrum. Cras ac gravida dolor. Ut in sem eget massa lacinia condimentum. In laoreet
-            consectetur leo, a facilisis velit feugiat sit amet. Aliquam et elementum sem. Mauris ipsum nulla, ullamcorper
-            tincidunt volutpat at, gravida non urna. Vestibulum et turpis luctus, scelerisque sapien sit amet, volutpat lacus.
-        </p>
-        <p>
-            Sed semper, nisi tincidunt lobortis tempor, eros mi aliquam lectus, ac tempus leo lacus a augue. Vivamus massa
-            tellus, sollicitudin quis metus et, mollis condimentum ante. Sed in augue purus. Quisque faucibus dignissim eros, a
-            dictum nunc laoreet quis. Sed at orci in tortor rhoncus tempor. Donec mattis sagittis dolor a lobortis. Proin
-            suscipit congue elit non tempor. Vestibulum non metus sed dui viverra ullamcorper. Nulla aliquet tincidunt mi nec
-            facilisis. In in tristique nisl, molestie vulputate erat. Donec vitae lacinia lorem, varius luctus mauris. Nam vel
-            urna ligula. Curabitur non nibh rhoncus, interdum tortor a, sodales tellus. Morbi metus lacus, laoreet eget volutpat
-            sit amet, fringilla vitae ante. Nulla at tortor felis. Sed ac suscipit felis.
-        </p>
-    </div>
-</div>
+    
+</a>

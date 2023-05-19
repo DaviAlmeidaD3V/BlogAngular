@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    /* background: #0B0B0B; */
+    background: #202124;
+}
+
+h1, h3, p, a {
+    color: #fff;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #adaaaa;
+}
+
+img {
+    border-radius: 15px;
+}

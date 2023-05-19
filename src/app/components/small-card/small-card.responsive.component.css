@@ -1,0 +1,17 @@
+@media screen and (max-width: 720px){
+    .container_small-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #EA80FC;
+        border-radius: 15px;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        background: #3C4042;
+    }
+    .small-card-photo {
+        width: 80%;
+    }
+}

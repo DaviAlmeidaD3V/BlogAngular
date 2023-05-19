@@ -3,7 +3,7 @@
     bottom: 0;
     height: 15vh;
     width: 100%;
-    background: #000;
+    background: #3C4042;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,4 +35,5 @@
     transform: scale(200%);
     cursor: pointer;
     transition: all 400ms ease;
+    color: #d905ff;
 }

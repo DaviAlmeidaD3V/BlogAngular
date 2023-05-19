@@ -1,0 +1,11 @@
+.container__footer {
+    position: relative;
+    bottom: 0;
+    height: 15vh;
+    width: 100%;
+    background: #3C4042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}

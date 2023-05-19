@@ -1,5 +1,6 @@
 .container__big__card {
-    border: 1px solid #000;
+    border: 3px solid #EA80FC;
+    border-radius: 25px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -7,8 +8,9 @@
     align-items: center;
     text-align: start;
     padding: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal; 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background: #3C4042;
 }
 
 .container__big__card h1 {
@@ -35,4 +37,8 @@
 .container__big__card .big-card-text p {
     padding: 12px;
     line-height: 24px;
+}
+
+a {
+    text-decoration: none;
 }
